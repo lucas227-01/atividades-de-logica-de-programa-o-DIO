@@ -17,7 +17,7 @@ int main(){
 
     printf("Digite seu nome: ");
     fgets(nome, sizeof(nome), stdin); //sizeof serve para ler a quantidade correta do vetor nome e caso seja trocada ele ja trocara no automatico
-    nome[strcspn(nome, "\n")] = '\0';// remote o enter (\n) do final
+    nome[strcspn(nome, "\n")] = '\0';// remove o enter (\n) do final
 
     printf("\nDigite quantos anos voce tem: ");
     fgets(buffer, sizeof(buffer), stdin);
