@@ -1,3 +1,6 @@
+/*Programa em C para cadastro de usuário via terminal, com foco em entrada de dados segura utilizando `fgets`, manipulação de strings e conversão de tipos. 
+Aplicação de boas práticas como uso de `sizeof` e tratamento de entrada.*/
+
 #include <stdio.h>   // Biblioteca para entrada e saída (printf, fgets)
 #include <string.h>  // Biblioteca para manipulação de strings (strcspn)
 #include <stdlib.h>  // Biblioteca para funções utilitárias (atoi)
